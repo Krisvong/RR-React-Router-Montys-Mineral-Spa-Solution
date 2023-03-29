@@ -10,7 +10,6 @@ import Nav from 'react-bootstrap/Nav'
 import Container from 'react-bootstrap/Container'
 
 
-
 function App() {
   
   const packages = ['Activate your Crystals', 'Monkey Meditation', 'Soak in the Hotsprings', 'Hypnotherapy', 'Mineral Bath']
@@ -41,21 +40,6 @@ function App() {
                   </Nav.Item>
               </Nav>
           </Container>
-
-
-          {/* <div className="navBar">
-            <ul>
-              <li>
-                <Link to="/">Home</Link>
-              </li>
-              <li>
-                <Link to="/about">About Us</Link>
-              </li>
-              <li>
-                <Link to="/packages">Our Packages</Link>
-              </li>
-            </ul>
-          </div> */}
         </header>
 
         <div className="display">
